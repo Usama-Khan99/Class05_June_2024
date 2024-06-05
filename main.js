@@ -6,4 +6,15 @@
 // Slice 
 // Splice
 var grocery = ['Atta', 'Chawal', 'Cheeni'];
-console.log(grocery[0]);
+grocery[0] = '1 kg Atta'; // Overwrite array variable
+grocery[1] = '5 kg chaawal';
+grocery[2] = '3 kg cheeni';
+console.log(grocery.length);
+console.log(grocery[grocery.length - 1]); // uSE TO FIND THE LAST ELEMENT OF arrray
+//  Multidimensional Array 
+var matrix = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9] // 2
+];
+console.log(matrix[2][1]);

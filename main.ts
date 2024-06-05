@@ -16,6 +16,15 @@ console.log(grocery.length);
 
 console.log(grocery[grocery.length-1]); // uSE TO FIND THE LAST ELEMENT OF arrray
 
+//  Multidimensional Array 
+
+let matrix : number [] [] = [
+    [1,2,3],  // 0
+    [4,5,6],  // 1
+    [7,8,9]   // 2
+];
+
+console.log(matrix[2][1]);
 
 
 
