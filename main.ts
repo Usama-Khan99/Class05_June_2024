@@ -45,3 +45,12 @@ console.log('EXIT');
 // 1 iteration m pehly statement chalyga phr 2 expression chalygi or agr expression true hui tou
 // action perform nh hoga wo direct code run py chala jayga phr dusri bari m sbb sy pehly action perform hoga jou k
 // iterator m 1 + kar dyga
+
+
+let students: string []= ['Ahmad', 'Ali', 'Bilal', 'Kashif'];
+
+// jbb hamy array ki length nh ptaa ho tou uski .length ki property use karygy
+for (let j = 0; j < students.length; j++){
+    console.log(`Assalam o Alaikum ${students[j]}`);
+    
+}

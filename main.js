@@ -31,3 +31,7 @@ console.log('EXIT');
 // 1 iteration m pehly statement chalyga phr 2 expression chalygi or agr expression true hui tou
 // action perform nh hoga wo direct code run py chala jayga phr dusri bari m sbb sy pehly action perform hoga jou k
 // iterator m 1 + kar dyga
+var students = ['Ahmad', 'Ali', 'Bilal', 'Kashif'];
+for (var j = 0; j < students.length; j++) {
+    console.log("Assalam o Alaikum ".concat(students[j]));
+}
